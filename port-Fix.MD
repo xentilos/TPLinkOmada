@@ -6,7 +6,7 @@ If you switch portal ports to something that is in use please fallow below to fi
 - start mongodb
 `sudo mongod --noauth --port=27217 --dbpath /opt/tplink/EAPController/data/db/ --bind_ip_all`
 - connect to mongoDB with external tool like NoSQLBooster
-- in omada/globalsetting change ports
+- in omada/globalsetting change ports in webPort JSON
 - commit the changes
 - close mongodb 
 - change file owner and group for all files in `/opt/tplink/EAPController/data/db/` and ` /opt/tplink/EAPController/data/db/journal/` to
